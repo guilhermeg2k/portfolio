@@ -1,0 +1,13 @@
+.languageSelector{
+  display: flex;
+  position: fixed;
+  top: calc(20px);
+  left: calc(100vw - 80px);
+}
+
+.languageSelector img{
+  width: 30px;
+  border: 1px black solid;
+  margin-right: 1px;
+  cursor: pointer;
+}

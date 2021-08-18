@@ -1,0 +1,32 @@
+.desktopNavbar {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 780px) {
+
+}
+
+@media (min-width: 1024px) {
+  .desktopNavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .desktopNavbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .desktopNavbar li{
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1650px) {
+}
