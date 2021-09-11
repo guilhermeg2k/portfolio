@@ -1,7 +1,17 @@
+.home{
+  height: 100vh;
+  padding: 20px;
+}
 .homeContainer{
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.homeContainer div:last-child{
+  display: none;
 }
 
 .homeContainer h3{
@@ -16,6 +26,7 @@
 .work{
   background-color: var(--red);
   padding: 2px 7px;
+  width: calc(100% + 70px);
 }
 
 .socialLinks{
@@ -41,13 +52,21 @@
 
 @media (min-width: 1024px) {
   .homeContainer{
-    max-width: 700px;
+    max-width: 900px;
+    justify-content: space-between;
+  }
+  .homeContainer div:last-child{
+    display: block;
+    width: 45%;
+  }
+  .homeContainer div:last-child img{
+    width: 100%;
   }
 }
 
 @media (min-width: 1366px) {
   .homeContainer{
-    max-width: 900px;
+    max-width: 1050px;
   }
 }
 

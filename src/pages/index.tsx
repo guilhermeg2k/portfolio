@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Guilherme's Portfolio</title>
       </Head>
-      <div>
+      <div className={styles.home}>
         <Navbar/>
         <LanguageSelector/>
         <div className={styles.homeContainer}>
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            HI2
+            <img src="/images/geometric.gif"/>
           </div>
         </div>
       </div>

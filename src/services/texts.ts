@@ -8,7 +8,7 @@ const Texts = [
       contact: "Contact"
     },
     homePage: {
-      hi: "Hey i'm",
+      hi: "Hi, i'm",
       name: "Guilherme Nascimento",
       work: "Web Developer"
     }
@@ -22,7 +22,7 @@ const Texts = [
       contact: "Contato"
     },
     homePage: {
-      hi: "Olá seja bem vindo, eu me chamo",
+      hi: "Olá, me chamo",
       name: "Guilherme Nascimento",
       work: "Web Developer"
     }
