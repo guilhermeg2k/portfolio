@@ -1,0 +1,58 @@
+.homeContainer{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeContainer h3{
+  font-size: 1.6rem;
+}
+
+.homeContainer h2{
+  font-size: 3rem;
+  font-family: 'Montez', cursive;
+}
+
+.work{
+  background-color: var(--red);
+  padding: 2px 7px;
+}
+
+.socialLinks{
+  color: white;
+  padding: 5px 0;
+}
+
+.socialLinks svg{
+  margin: 0 2px;
+}
+
+.email svg{
+  transform: scale(1);
+}
+
+.gitHub svg{
+  transform: scale(0.9);
+}
+
+@media (min-width: 780px) {
+
+}
+
+@media (min-width: 1024px) {
+  .homeContainer{
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .homeContainer{
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .homeContainer{
+    max-width: 1200px;
+  }
+}

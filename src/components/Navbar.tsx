@@ -4,7 +4,7 @@ import Texts from "../services/texts";
 import { Language, LanguageContext } from '../contexts/language';
 
 export default function Navbar() {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
 
   return (
     <nav>

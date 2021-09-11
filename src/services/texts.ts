@@ -6,15 +6,25 @@ const Texts = [
       projects: "Projects",
       curriculum: "Curriculum",
       contact: "Contact"
+    },
+    homePage: {
+      hi: "Hey i'm",
+      name: "Guilherme Nascimento",
+      work: "Web Developer"
     }
   },
   {
     navbar: {
       home: "Inicio",
-      abilities: "Habilidades",
+      abilities: "Competências",
       projects: "Projetos",
       curriculum: "Currículo",
       contact: "Contato"
+    },
+    homePage: {
+      hi: "Olá seja bem vindo, eu me chamo",
+      name: "Guilherme Nascimento",
+      work: "Web Developer"
     }
   },
 ]
