@@ -22,7 +22,7 @@ const Texts = [
       contact: "Contato"
     },
     homePage: {
-      hi: "Olá, me chamo",
+      hi: "Olá, sou",
       name: "Guilherme Nascimento",
       work: "Web Developer"
     }

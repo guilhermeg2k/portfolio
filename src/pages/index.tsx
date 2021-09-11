@@ -23,9 +23,9 @@ export default function Home() {
             <h2>{Texts[language].homePage.name}</h2>
             <h3 className={styles.work}>{Texts[language].homePage.work}</h3>
             <div className={styles.socialLinks}>
-              <a href=""><LinkedIn/></a>
-              <a href="" className={styles.gitHub}><GitHub/></a>
-              <a href="" className={styles.email}><Email/></a>
+              <a href="https://www.linkedin.com/in/guilherme-nascimento-b236b9176/" target="_blank"><LinkedIn/></a>
+              <a href="https://github.com/guilhermeg2k" className={styles.gitHub} target="_blank"><GitHub/></a>
+              <a href="mailto:guilhermen2k@gmail.com" className={styles.email}><Email/></a>
             </div>
           </div>
           <div>
