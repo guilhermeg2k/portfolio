@@ -1,7 +1,7 @@
 .languageSelector{
   display: flex;
   position: fixed;
-  top: calc(20px);
+  top: calc(100vh - 40px);
   left: calc(100vw - 80px);
 }
 
