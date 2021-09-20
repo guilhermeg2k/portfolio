@@ -19,9 +19,9 @@ export default function Home() {
         <LanguageSelector/>
         <div className={styles.homeContainer}>
           <div>
-            <h3>{Texts[language].homePage.hi}</h3>
-            <h2>{Texts[language].homePage.name}</h2>
-            <h3 className={styles.work}>{Texts[language].homePage.work}</h3>
+            <h3>{Texts[language].home.hi}</h3>
+            <h2>{Texts[language].home.name}</h2>
+            <h3 className={styles.work}>{Texts[language].home.work}</h3>
             <div className={styles.socialLinks}>
               <a href="https://www.linkedin.com/in/guilherme-nascimento-b236b9176/" target="_blank"><LinkedIn/></a>
               <a href="https://github.com/guilhermeg2k" className={styles.gitHub} target="_blank"><GitHub/></a>

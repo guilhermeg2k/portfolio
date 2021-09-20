@@ -7,8 +7,8 @@ export default function LanguageSelector(){
 
   return (
     <div className={style.languageSelector}>
-      <img src="/en-flag.webp" onClick={() => {setLanguage(Language.en)}}></img>
-      <img src="/pt-flag.png" onClick={() => {setLanguage(Language.pt)}}></img>
+      <img src="images/en-flag.webp" onClick={() => {setLanguage(Language.en)}}></img>
+      <img src="images/pt-flag.png" onClick={() => {setLanguage(Language.pt)}}></img>
     </div>
   )
 }

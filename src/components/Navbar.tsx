@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className={style.desktopNavbar}>
         <ul>
           <li><Link href="/"><a>{Texts[language].navbar.home}</a></Link></li>
-          <li><Link href="/abilities"><a>{Texts[language].navbar.abilities}</a></Link></li>
+          <li><Link href="/skills"><a>{Texts[language].navbar.skills}</a></Link></li>
           <li><Link href="/projects"><a>{Texts[language].navbar.projects}</a></Link></li>
           <li><Link href="/curriculum"><a>{Texts[language].navbar.curriculum}</a></Link></li>
           <li><Link href="/contact"><a>{Texts[language].navbar.contact}</a></Link></li>
