@@ -23,8 +23,9 @@ export default function Projects() {
             <h1 className={styles.title}>{Texts[language].projects.title}</h1>
             <div className={styles.projectsList}>
               {
-                ProjectsList.map(project => (
+                ProjectsList.map((project, index) => (
                   <ProjectCard
+                    key={index}
                     name={project.name}
                     tags={project.tags}
                     description={project.description}

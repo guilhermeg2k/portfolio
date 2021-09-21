@@ -22,8 +22,8 @@ export default function Skills() {
             <h1 className={styles.title}>{Texts[language].skills.title}</h1>
             <div className={styles.skillList}>
               {
-                SkillsList.map(skill => (
-                  <div>
+                SkillsList.map((skill, index) => (
+                  <div key={index}>
                     <img src={skill.imgURL} alt={skill.title} title={skill.title}/>
                   </div>
                 ))

@@ -34,8 +34,8 @@ export default function ProjectCard({ name, imageURL, tags, description, preview
       <div>
         <h3>{name}</h3>
         <ul>
-          {tags.map(tag =>
-            <li style={{ backgroundColor: tag.color }}>{tag.name}</li>
+          {tags.map((tag, index) =>
+            <li key = {index} style={{ backgroundColor: tag.color }}>{tag.name}</li>
           )}
         </ul>
         <p>{description[language]}</p>

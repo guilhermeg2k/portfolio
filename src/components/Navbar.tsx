@@ -15,7 +15,7 @@ export default function Navbar() {
           <li><Link href="/skills"><a>{Texts[language].navbar.skills}</a></Link></li>
           <li><Link href="/projects"><a>{Texts[language].navbar.projects}</a></Link></li>
           <li><Link href="/curriculum"><a>{Texts[language].navbar.curriculum}</a></Link></li>
-          <li><Link href="/contact"><a>{Texts[language].navbar.contact}</a></Link></li>
+          <li><a href="mailto:guilhermen2k@gmail.com" target="_blank" rel="noreferrer">{Texts[language].navbar.contact}</a></li>
         </ul>
       </div>
     </nav>
