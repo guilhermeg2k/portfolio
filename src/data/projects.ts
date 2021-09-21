@@ -1,7 +1,7 @@
 const ProjectsList = [
   {
     name: "Neofy",
-    imgURL: "images/neofy-ss.png",
+    imgURL: "/images/neofy-ss.png",
     tags: [{
       name: "TS",
       color: "#3178c6"
@@ -36,7 +36,7 @@ const ProjectsList = [
   },
   {
     name: "Blog Template",
-    imgURL: "images/blog-template-ss.png",
+    imgURL: "/images/blog-template-ss.png",
     tags: [{
       name: "TS",
       color: "#3178c6"
@@ -63,7 +63,7 @@ const ProjectsList = [
   },
   {
     name: "HLTV",
-    imgURL: "images/hltv-ss.png",
+    imgURL: "/images/hltv-ss.png",
     tags: [{
       name: "TS",
       color: "#3178c6"
@@ -86,7 +86,7 @@ const ProjectsList = [
   },
   {
     name: "Spotify Landing",
-    imgURL: "images/spotify-ss.png",
+    imgURL: "/images/spotify-ss.png",
     tags: [{
       name: "TS",
       color: "#3178c6"

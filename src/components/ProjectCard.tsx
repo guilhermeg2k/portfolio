@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import styles from "../styles/components/ProjectCard.module.css";
 import { LanguageContext } from '../contexts/language';
+import Image from "next/image";
 
 interface Tag {
   name: string;
@@ -22,7 +23,7 @@ export default function ProjectCard({ name, imageURL, tags, description, preview
     <div className={styles.projectCardContainer}>
       <div>
         <div>
-          <img src={imageURL} alt={name} title={name} />
+          <img src={imageURL} alt={name} title={name}/>
         </div>
 
         <div className={styles.buttonsContainer}>

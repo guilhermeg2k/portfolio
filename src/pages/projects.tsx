@@ -7,21 +7,31 @@ import { LanguageContext } from '../contexts/language';
 import { useContext } from 'react';
 import ProjectsList from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const { language } = useContext(LanguageContext);
   return (
     <>
       <Head>
-      <title>{`Guilherme's Portfolio`}</title>
+        <title>{`Guilherme's Portfolio`}</title>
       </Head>
       <div className={styles.projects}>
         <Navbar />
         <LanguageSelector />
         <div className={styles.projectsContainer}>
           <div>
-            <h1 className={styles.title}>{Texts[language].projects.title}</h1>
-            <div className={styles.projectsList}>
+            <motion.h1
+              initial={{ y: "-1000" }}
+              animate={{ y: 0 }}
+              transition={{ duration: 0.5 }}
+              className={styles.title}>{Texts[language].projects.title}</motion.h1>
+            <motion.div 
+              initial={{ x: "-1000" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5 }}
+              className={styles.projectsList}
+            >
               {
                 ProjectsList.map((project, index) => (
                   <ProjectCard
@@ -34,13 +44,18 @@ export default function Projects() {
                     githubURL={project.githubURL} />
                 ))
               }
-            </div>
+            </motion.div>
             <div className={styles.projectsText}>
 
             </div>
           </div>
           <div>
-            <img src="/images/geometric.gif" />
+            <motion.img
+              initial={{ x: "1000" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5 }}
+              src="/images/geometric.gif"
+            />
           </div>
         </div>
       </div>
