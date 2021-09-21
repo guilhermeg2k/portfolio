@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import style from "../styles/components/Navbar.module.css";
-import Texts from "../services/texts";
+import Texts from "../data/texts";
 import { Language, LanguageContext } from '../contexts/language';
 import Link from "next/link";
 

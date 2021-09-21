@@ -50,6 +50,10 @@ const SkillsList = [
   {
     title: "Git",
     imgURL: "images/git-logo.png"
+  },
+  {
+    title: "Figma",
+    imgURL: "images/figma-logo.png"
   }
 ]
 

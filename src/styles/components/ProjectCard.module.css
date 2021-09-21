@@ -1,0 +1,52 @@
+.projectCardContainer{
+  display: flex;
+  align-items: flex-start;
+}
+
+.projectCardContainer > div:first-child{
+  margin-right: 20px;
+}
+
+.projectCardContainer > div:first-child img{
+  height: 120px;
+}
+
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsContainer button{
+  padding: 5px;
+  background-color: var(--red);
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 100%;
+
+}
+
+.buttonsContainer button:hover{
+  background-color: #ff0000;
+}
+
+.projectCardContainer > div:last-child ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.projectCardContainer > div:last-child li{
+  display: flex;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

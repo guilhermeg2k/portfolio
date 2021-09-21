@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import LanguageSelector from '../components/LanguageSelector';
-import Texts from "../services/texts";
+import Texts from "../data/texts";
 import styles from "../styles/pages/home.module.css";
 import { LanguageContext } from '../contexts/language';
 import { useContext } from 'react';

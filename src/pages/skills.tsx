@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import LanguageSelector from '../components/LanguageSelector';
-import Texts from "../services/texts";
+import Texts from "../data/texts";
 import styles from "../styles/pages/skills.module.css";
 import { LanguageContext } from '../contexts/language';
 import { useContext } from 'react';
-import SkillsList from '../services/skills';
+import SkillsList from '../data/skills';
 
 export default function Skills() {
   const { language } = useContext(LanguageContext);
