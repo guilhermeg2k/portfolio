@@ -24,10 +24,13 @@ export default function Skills() {
               {
                 SkillsList.map(skill => (
                   <div>
-                    <img src={skill.imgURL} />
+                    <img src={skill.imgURL} alt={skill.title} title={skill.title}/>
                   </div>
                 ))
               }
+            </div>
+            <div className={styles.skillsText}>
+              <p>{Texts[language].skills.description}</p>
             </div>
           </div>
           <div>
