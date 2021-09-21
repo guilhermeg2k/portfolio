@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Guilherme's Portfolio</title>
+      <title>{`Guilherme's Portfolio`}</title>
       </Head>
       <div className={styles.projects}>
         <Navbar />

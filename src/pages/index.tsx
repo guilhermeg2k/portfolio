@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Guilherme's Portfolio</title>
+        <title>{`Guilherme's Portfolio`}</title>
       </Head>
       <div className={styles.home}>
         <Navbar/>
