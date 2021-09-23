@@ -26,7 +26,6 @@
 .work{
   background-color: var(--red);
   padding: 2px 7px;
-  width: calc(100% + 70px);
 }
 
 .socialLinks{
@@ -61,6 +60,9 @@
   }
   .homeContainer div:last-child img{
     width: 100%;
+  }
+  .work{
+    width: calc(100% + 70px);
   }
 }
 

@@ -1,14 +1,13 @@
 .skills {
-  height: 100vh;
   padding: 20px 50px;
 }
 
 .skillsContainer {
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 80%;
+  padding-top: 100px;
 }
 
 .skillsContainer > div:first-child {
@@ -37,7 +36,7 @@
 
 .skillList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 160px);
+  grid-template-columns: repeat(auto-fill, 90px);
   grid-row-gap: 15px;
   width: 100%;
   padding: 15px 0;
@@ -45,10 +44,11 @@
 
 .skillsText {
   width: 100%;
+  height: 100%;
 }
 
 .skillList img {
-  height: 100px;
+  height: 50px;
 }
 
 @media (max-width: 650px) {
@@ -77,6 +77,10 @@
 
   .skillsContainer > div:last-child img {
     width: 100%;
+  }
+
+  .skillList img {
+    height: 100px;
   }
 
   .title {

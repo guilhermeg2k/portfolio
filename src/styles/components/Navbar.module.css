@@ -1,7 +1,7 @@
 .desktopNavbar {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
@@ -11,6 +11,9 @@
 .desktopNavbar ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .desktopNavbar li{
   margin-right: 30px;

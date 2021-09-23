@@ -62,29 +62,6 @@ const ProjectsList = [
     githubURL: "https://github.com/guilhermeg2k/blog-template"
   },
   {
-    name: "HLTV",
-    imgURL: "/images/hltv-ss.png",
-    tags: [{
-      name: "TS",
-      color: "#3178c6"
-    },
-    {
-      name: "CSS",
-      color: "#add9ed"
-    },
-    {
-      name: "React",
-      color: "#58d2f3"
-    },
-    ],
-    description: [
-      "This its a clone of the HLTV.org desktop homepage.",
-      "Esse projeto é um clone da página inicial da HLTV.org."
-    ],
-    previewURL: "https://guilhermeg2k.github.io/hltv-clone/build/",
-    githubURL: "https://github.com/guilhermeg2k/hltv-clone"
-  },
-  {
     name: "Spotify Landing",
     imgURL: "/images/spotify-ss.png",
     tags: [{
@@ -110,6 +87,29 @@ const ProjectsList = [
     ],
     previewURL: "https://guilhermeg2k.github.io/spotify-clone/",
     githubURL: "https://github.com/guilhermeg2k/spotify-clone"
+  },  
+  {
+    name: "HLTV",
+    imgURL: "/images/hltv-ss.png",
+    tags: [{
+      name: "TS",
+      color: "#3178c6"
+    },
+    {
+      name: "CSS",
+      color: "#add9ed"
+    },
+    {
+      name: "React",
+      color: "#58d2f3"
+    },
+    ],
+    description: [
+      "This its a clone of the HLTV.org desktop homepage.",
+      "Esse projeto é um clone da página inicial da HLTV.org."
+    ],
+    previewURL: "https://guilhermeg2k.github.io/hltv-clone/build/",
+    githubURL: "https://github.com/guilhermeg2k/hltv-clone"
   },
 ];
 

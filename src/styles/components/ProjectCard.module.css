@@ -1,14 +1,17 @@
 .projectCardContainer{
   display: flex;
   align-items: flex-start;
+  flex-direction: column-reverse;
 }
 
 .projectCardContainer > div:first-child{
   margin-right: 20px;
+  margin-top: 10px;
+  align-self: center;
 }
 
 .projectCardContainer > div:first-child img{
-  height: 120px;
+  height: 200px;
 }
 
 .buttonsContainer{
@@ -49,4 +52,21 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (min-width: 1024px) {
+  .projectCardContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .projectCardContainer > div:first-child{
+    margin-right: 20px;
+    margin-top: 10px;
+    align-self: none;
+  }
+  .projectCardContainer > div:first-child img{
+    height: 120px;
+  }
 }
