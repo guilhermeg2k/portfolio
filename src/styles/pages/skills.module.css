@@ -36,7 +36,7 @@
 
 .skillList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 90px);
+  grid-template-columns: repeat(auto-fill, 60px);
   grid-row-gap: 15px;
   width: 100%;
   padding: 15px 0;
@@ -48,16 +48,18 @@
 }
 
 .skillList img {
-  height: 50px;
+  height: 35px;
 }
 
-@media (max-width: 650px) {
-  .skillList {
-    grid-template-columns: repeat(3, 160px);
-  }
-}
 
 @media (min-width: 780px) {
+  .skillList {
+    grid-template-columns: repeat(auto-fill, 90px);
+  }
+  .skillList img {
+    height: 50px;
+  }
+  
 }
 
 @media (min-width: 1024px) {

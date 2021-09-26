@@ -10,8 +10,12 @@
   align-self: center;
 }
 
+.projectCardContainer > div:first-child > div:first-child {
+  height: 120px;
+}
+
 .projectCardContainer > div:first-child img{
-  height: 200px;
+  height: 100%;
 }
 
 .buttonsContainer{
