@@ -50,11 +50,13 @@ export default function Projects() {
             </div>
           </div>
           <div>
-            <motion.img
+            <motion.video
               initial={{ x: "1000" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
-              src="/images/geometric.gif"
+              src="/images/geometric2.webm"
+              autoPlay
+              loop
             />
           </div>
         </div>

@@ -52,11 +52,13 @@ export default function Skills() {
             </motion.div>
           </div>
           <div>
-            <motion.img
+            <motion.video
               initial={{ x: "1000" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
-              src="/images/geometric.gif"
+              src="/images/geometric3.webm"
+              loop
+              autoPlay
             />
           </div>
 
